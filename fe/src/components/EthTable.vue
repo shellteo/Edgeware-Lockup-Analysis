@@ -1,6 +1,7 @@
 <template>
     <el-table border
               :data="arr"
+              height="500"
               :default-sort = "{prop: 'time', order: 'ascending'}"
               style="width: 100%">
         <el-table-column
